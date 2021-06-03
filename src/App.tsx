@@ -10,7 +10,10 @@ function App() {
         <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="#home">Unio Test Harness</Navbar.Brand>
         </Navbar>
-        <ScheduleADemo />
+        <ScheduleADemo 
+            meetingsURL="https://meetings.hubspot.com/rae-morales?embed=true"
+            embedScriptURL="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"
+        />
     </React.Fragment>
   );
 }

@@ -1,19 +1,24 @@
 import React, { useEffect } from 'react';
 
-const ScheduleADemo: React.FC = () => {
+interface ScheduleADemoProps {
+    meetingsURL: string,
+    embedScriptURL: string
+}
+
+const ScheduleADemo: React.FC<ScheduleADemoProps> = ({ meetingsURL, embedScriptURL }) => {
 
     // create the HubSpot script element and append it to the body
     useEffect(() => {
 
         const script: HTMLScriptElement = document.createElement('script');
-        script.src = 'https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js';
+        script.src = embedScriptURL;
         document.body.appendChild(script);
 
-    }, []);
+    }, [embedScriptURL]);
 
     return (
         <div>
-            <div className="meetings-iframe-container" data-src="https://meetings.hubspot.com/rae-morales?embed=true"></div>
+            <div className="meetings-iframe-container" data-src={meetingsURL}></div>
         </div>
     );
 };
