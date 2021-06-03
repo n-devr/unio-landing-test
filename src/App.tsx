@@ -21,7 +21,7 @@ function App() {
         <section id="schedule-a-demo" className="py-3 text-center">
             <h3>Schedule a Demo</h3>
             <ScheduleADemo 
-                meetingsURL="https://meetings.hubspot.com/rae-morales?embed=true"
+                meetingsURL="https://meetings.hubspot.com/ryan-diehl/uniocare-app-demo?embed=true"
                 embedScriptURL="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"
             />
         </section>
