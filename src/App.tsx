@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import ScheduleADemo from './components/ScheduleADemo';
 
 import './App.scss';
@@ -7,13 +7,25 @@ import './App.scss';
 function App() {
   return (
     <React.Fragment>
-        <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="#home">Unio Test Harness</Navbar.Brand>
+
+        {/* Navbar */}
+        <Navbar bg="dark" variant="dark" expand="sm">
+            <Navbar.Brand href="#">Unio Test Harness</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsiveNav" />
+            <Navbar.Collapse id="responsiveNav">
+                <Nav.Link href="#schedule-a-demo">Schedule a Demo</Nav.Link>
+            </Navbar.Collapse>
         </Navbar>
-        <ScheduleADemo 
-            meetingsURL="https://meetings.hubspot.com/rae-morales?embed=true"
-            embedScriptURL="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"
-        />
+
+        {/* Schedule a Demo */}
+        <section id="schedule-a-demo" className="py-3 text-center">
+            <h3>Schedule a Demo</h3>
+            <ScheduleADemo 
+                meetingsURL="https://meetings.hubspot.com/rae-morales?embed=true"
+                embedScriptURL="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"
+            />
+        </section>
+        
     </React.Fragment>
   );
 }
