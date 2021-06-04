@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/unio-landing-test/static/css/main.8d9d6dd1.chunk.css",
-    "main.js": "/unio-landing-test/static/js/main.27fe4dad.chunk.js",
-    "main.js.map": "/unio-landing-test/static/js/main.27fe4dad.chunk.js.map",
-    "runtime-main.js": "/unio-landing-test/static/js/runtime-main.52eb778d.js",
-    "runtime-main.js.map": "/unio-landing-test/static/js/runtime-main.52eb778d.js.map",
-    "static/js/2.1e2fc9a2.chunk.js": "/unio-landing-test/static/js/2.1e2fc9a2.chunk.js",
-    "static/js/2.1e2fc9a2.chunk.js.map": "/unio-landing-test/static/js/2.1e2fc9a2.chunk.js.map",
-    "static/js/3.25872c95.chunk.js": "/unio-landing-test/static/js/3.25872c95.chunk.js",
-    "static/js/3.25872c95.chunk.js.map": "/unio-landing-test/static/js/3.25872c95.chunk.js.map",
-    "index.html": "/unio-landing-test/index.html",
-    "static/css/main.8d9d6dd1.chunk.css.map": "/unio-landing-test/static/css/main.8d9d6dd1.chunk.css.map",
-    "static/js/2.1e2fc9a2.chunk.js.LICENSE.txt": "/unio-landing-test/static/js/2.1e2fc9a2.chunk.js.LICENSE.txt"
+    "main.css": "https://staging.uniocare.com/static/css/main.8d9d6dd1.chunk.css",
+    "main.js": "https://staging.uniocare.com/static/js/main.27fe4dad.chunk.js",
+    "main.js.map": "https://staging.uniocare.com/static/js/main.27fe4dad.chunk.js.map",
+    "runtime-main.js": "https://staging.uniocare.com/static/js/runtime-main.6c72e929.js",
+    "runtime-main.js.map": "https://staging.uniocare.com/static/js/runtime-main.6c72e929.js.map",
+    "static/js/2.1e2fc9a2.chunk.js": "https://staging.uniocare.com/static/js/2.1e2fc9a2.chunk.js",
+    "static/js/2.1e2fc9a2.chunk.js.map": "https://staging.uniocare.com/static/js/2.1e2fc9a2.chunk.js.map",
+    "static/js/3.25872c95.chunk.js": "https://staging.uniocare.com/static/js/3.25872c95.chunk.js",
+    "static/js/3.25872c95.chunk.js.map": "https://staging.uniocare.com/static/js/3.25872c95.chunk.js.map",
+    "index.html": "https://staging.uniocare.com/index.html",
+    "static/css/main.8d9d6dd1.chunk.css.map": "https://staging.uniocare.com/static/css/main.8d9d6dd1.chunk.css.map",
+    "static/js/2.1e2fc9a2.chunk.js.LICENSE.txt": "https://staging.uniocare.com/static/js/2.1e2fc9a2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.52eb778d.js",
+    "static/js/runtime-main.6c72e929.js",
     "static/js/2.1e2fc9a2.chunk.js",
     "static/css/main.8d9d6dd1.chunk.css",
     "static/js/main.27fe4dad.chunk.js"
