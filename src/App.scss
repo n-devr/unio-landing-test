@@ -1,2 +1,30 @@
+// Unio theme colors
+$theme-colors: (
+    "prussian-blue": #1D3354
+);
+
 // import bootsrap styles
 @import "~bootstrap/scss/bootstrap";
+
+// custom site styles
+.logo {
+    
+    height: 50px;
+    max-height: 50px;
+}
+
+.navbar {
+    align-items: flex-end;
+}
+
+.nav-link {
+    
+    padding-bottom: 3px;
+    color: #EFECE4;
+    
+    &:active,
+    &:hover,
+    &:focus {
+        color: #C6BAB5;
+    }
+}

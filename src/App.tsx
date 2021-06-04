@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import ScheduleADemo from './components/ScheduleADemo';
 
+import logo from './logo.svg';
 import './App.scss';
 
 function App() {
@@ -9,8 +10,10 @@ function App() {
     <React.Fragment>
 
         {/* Navbar */}
-        <Navbar bg="dark" variant="dark" expand="sm">
-            <Navbar.Brand href="#">Unio Test Harness</Navbar.Brand>
+        <Navbar bg="prussian-blue" variant="dark" expand="sm">
+            <Navbar.Brand href="#">
+                <img src={logo} className="logo" alt="Unio Logo" />
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsiveNav" />
             <Navbar.Collapse id="responsiveNav">
                 <Nav.Link href="#schedule-a-demo">Schedule a Demo</Nav.Link>
