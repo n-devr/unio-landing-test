@@ -26,7 +26,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "predeploy-gh-pages": "PUBLIC_URL=https://staging.uniocare.com npm run build",
+    "deploy-gh-pages": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
