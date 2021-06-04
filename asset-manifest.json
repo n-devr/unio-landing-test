@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "https://staging.uniocare.com/static/css/main.8d9d6dd1.chunk.css",
-    "main.js": "https://staging.uniocare.com/static/js/main.27fe4dad.chunk.js",
-    "main.js.map": "https://staging.uniocare.com/static/js/main.27fe4dad.chunk.js.map",
+    "main.css": "https://staging.uniocare.com/static/css/main.ee1d2533.chunk.css",
+    "main.js": "https://staging.uniocare.com/static/js/main.9157ea9f.chunk.js",
+    "main.js.map": "https://staging.uniocare.com/static/js/main.9157ea9f.chunk.js.map",
     "runtime-main.js": "https://staging.uniocare.com/static/js/runtime-main.6c72e929.js",
     "runtime-main.js.map": "https://staging.uniocare.com/static/js/runtime-main.6c72e929.js.map",
     "static/js/2.1e2fc9a2.chunk.js": "https://staging.uniocare.com/static/js/2.1e2fc9a2.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.25872c95.chunk.js": "https://staging.uniocare.com/static/js/3.25872c95.chunk.js",
     "static/js/3.25872c95.chunk.js.map": "https://staging.uniocare.com/static/js/3.25872c95.chunk.js.map",
     "index.html": "https://staging.uniocare.com/index.html",
-    "static/css/main.8d9d6dd1.chunk.css.map": "https://staging.uniocare.com/static/css/main.8d9d6dd1.chunk.css.map",
-    "static/js/2.1e2fc9a2.chunk.js.LICENSE.txt": "https://staging.uniocare.com/static/js/2.1e2fc9a2.chunk.js.LICENSE.txt"
+    "static/css/main.ee1d2533.chunk.css.map": "https://staging.uniocare.com/static/css/main.ee1d2533.chunk.css.map",
+    "static/js/2.1e2fc9a2.chunk.js.LICENSE.txt": "https://staging.uniocare.com/static/js/2.1e2fc9a2.chunk.js.LICENSE.txt",
+    "static/media/logo.7299dab2.svg": "https://staging.uniocare.com/static/media/logo.7299dab2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6c72e929.js",
     "static/js/2.1e2fc9a2.chunk.js",
-    "static/css/main.8d9d6dd1.chunk.css",
-    "static/js/main.27fe4dad.chunk.js"
+    "static/css/main.ee1d2533.chunk.css",
+    "static/js/main.9157ea9f.chunk.js"
   ]
 }
